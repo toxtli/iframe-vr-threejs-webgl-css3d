@@ -96,6 +96,11 @@ function initControls() {
 			$("#menu").toggle();
 		}
 	});
+	$("#container").on("dblclick", function(){
+		if (stereoEnabled) {
+			$("#menu").toggle();
+		}
+	});
 	$("#vrbutton").on("click", function(e) {
 		if (stereoEnabled) {
 			window.location.href = "#3d";
