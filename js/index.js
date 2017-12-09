@@ -143,7 +143,7 @@ function init() {
 	document.addEventListener('click', enableNoSleep, false);
 	initControls();
 	init3D(stereoEnabled);
-	loadIframe("https://www.youtube.com/embed/eRsGyueVLvQ");
+	loadIframe(prompt("Enter iframe URL"));
 	$(".loader").hide();
 }
 
